@@ -1,0 +1,467 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220725104921"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20220725104921">
+
+    <title>каталог</title>
+</head>
+<body>
+    <header class="header">
+    <div class="header__container">
+        <div class="header__row">
+            <img src="img/u-force 1.jpg" alt="logo" class="header__logo">
+            <div class="header__menu header-menu">
+                <a href="./index.html" class="header-menu__item">головна</a>
+                <a href="./bascket.html" class="header-menu__item">корзина</a>
+                <a href="./katalog.html" class="header-menu__item">каталог</a>
+                <a href="./blog.html" class="header-menu__item">блог</a>
+            </div>
+            <img class="header__burger" alt = "burger" src="img/Group 98.svg">
+        </div>
+        <div class="header__burger-menu burger-menu">
+            <a href="#" class="header-menu__item"><p>головна</p></a>
+            <a href="#" class="header-menu__item"><p>корзина</p></a>
+            <a href="#" class="header-menu__item"><p>каталог</p></a>
+            <a href="#" class="header-menu__item"><p>блог</p></a>
+        </div>
+    </div>
+</header>
+    <main class="main">
+        <div class="adaptive-filter">
+            <div class="adaptive-filter__container">
+                <div class="adaptive-filter__content adft">
+                    <div class="adft__title">
+                        <img src="img/kisspng-computer-icons-clip-art-left-arrow-5b19a8d51а6b854 1.svg" alt="arrow prev" class="adft__icon">
+                        <div class="adft__title-title">Фільтри</div>
+                    </div>
+                    <div class="adft__price">
+                        <div class="adft-title adft__title-price">ціна</div>
+                        <input type="number" class="adft__min-price adft-price-input" id="min-pric0">
+                        <input type="number" class="adft__max-price adft-price-input" id="max-pric1">
+                        <div class="ft__slider-price" id="range-slider-price2"></div>
+                    </div>
+                    <form action="#" class="adft__checkbox">
+                        <div class="ft__general">
+                            <div class="adft-title adft__general-title">загальні</div>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">є на складі</div>
+                            </label>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">новинки</div>
+                            </label>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">б/у</div>
+                            </label>
+                        </div>
+                        <div class="ft__ind">
+                            <div class="adft-title adft__ind-title">індивідуальні</div>
+                            <div class="adft-subtitle adft__ind-subtitle">одяг:</div>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">жіночий</div>
+                            </label>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">чоловічий</div>
+                            </label>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">дитячий</div>
+                            </label>
+                            <label class="ft-checbox">
+                                <input type="checkbox" class="ft-checbox__checbox">
+                                <div class="ft-checbox__tick adft-checbox__tick"></div>
+                                <div class="ft-checbox__text adft-checbox__text">всі категорії</div>
+                            </label>
+                        </div>
+                        <label class="adft__reset">
+                            <input type="reset" class="adft__button-reset">
+                            <div class="adf__reset-st green-button">зкинути фільтри</div>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="adaptive-filter-shadow"></div>
+        <div class="main__content">
+            <div class="main__container">
+                <div class="main__row">
+                    <div class="main__filter filter">
+                        <div class="filter__product f-product">
+                            <ul class="f-product__items">
+                                <li class="f-product__item"><img src="img/icons/icons.svg#fotbolka"  alt="ico" class="f-product__icon"><p>одяг</p></li>
+                                <li class="f-product__item"><img src="img/icons/icons.svg#172075ппп91_(3)" alt="ico" class="f-product__icon"><p>іграшки</p></li>
+                                <li class="f-product__item"><img src="img/icons/icons.svg#172075ппп9_1_(2)" alt="ico" class="f-product__icon"><p>сувеніри</p></li>
+                                <li class="f-product__item"><img src="img/icons/icons.svg#172075ппп91_(1)" alt="ico" class="f-product__icon"><p>чаші</p></li>
+                                <li class="f-product__item"><img src="img/icons/icons.svg#172075ппп9_1-2" alt="ico" class="f-product__icon"><p>м’які іграшки</p></li>
+                            </ul>
+                            <div class="ft-button-filter green-button">фільтри</div>
+                        </div>
+                        <div class="filter__filter ft">
+                            <form>
+                                <div class="ft__price">
+                                    <div class="ft-title ft__title-price">ціна</div>
+                                    <input type="number" class="ft__min-price price-input" id="min-price0">
+                                    <input type="number" class="ft__max-price price-input" id="max-price1">
+                                    <div class="ft__slider-price" id="range-slider-price"></div>
+                                </div>
+                                <div class="ft__general">
+                                    <div class="ft-title ft__general-title">загальні</div>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">є на складі</div>
+                                    </label>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">новинки</div>
+                                    </label>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">б/у</div>
+                                    </label>
+                                </div>
+                                <div class="ft__ind">
+                                    <div class="ft-title ft__ind-title">індивідуальні</div>
+                                    <div class="ft-subtitle ft__ind-subtitle">одяг:</div>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">жіночий</div>
+                                    </label>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">чоловічий</div>
+                                    </label>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">дитячий</div>
+                                    </label>
+                                    <label class="ft-checbox">
+                                        <input type="checkbox" class="ft-checbox__checbox">
+                                        <div class="ft-checbox__tick"></div>
+                                        <div class="ft-checbox__text">всі категорії</div>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="main__product product-catalog">
+                        <div class="product-catalog__search">
+                            <input type="text" placeholder="Поиск" class="product-catalog__search-input">
+                        </div>
+                        <div class="products">
+                            <div class="products__row">
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                                <div class="products__product"><div class="product">
+    <div class="product__row">
+        <img src="img/Снимок 2.png" alt="image" class="product__img">
+        <div class="product__info">
+            <div class="product__title">футболка</div>
+            <div class="product__description">патріотична футболка з гербом України...</div>
+            <div class="product__prices">
+                <div class="product__price">260грн</div>
+                <div class="product__discount">300грн</div>
+            </div>
+        </div>
+    </div>
+    <div class="product__buttons">
+        <a href="./card_product.html" class="product__order green-button green-button-mini">замовити</a>
+        <a href="#" class="product__bascket green-button green-button-mini">в корзину</a>
+    </div>
+</div></div>
+                            </div>
+                            <div class="products__pages">
+                                <div class="pages">
+                                    <picture><source srcset="img/pages_arrow.webp" type="image/webp"><img src="img/pages_arrow.png" alt="arrow" class="pages__arrow pages__arrow-prev"></picture>
+                                    <div class="pages__number">
+                                        <div class="pages__page">1</div>
+                                        <div class="pages__page">2</div>
+                                        <div class="pages__page">3</div>
+                                    </div>
+                                    <picture><source srcset="img/pages_arrow.webp" type="image/webp"><img src="img/pages_arrow.png" alt="arrow" class="pages__arrow pages__arrow-next"></picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__contacts contacts">
+            <img src="img/87````390 1.png" alt="inst" class="contacts__inst contacts__contact">
+            <img src="img/22037`````5 1.png" alt="inst" class="contacts__twitter contacts__contact">
+            <img src="img/Facebook_Lo````go_(2019) 1.png" alt="inst" class="contacts__facebuc contacts__contact">
+            <img src="img/237-2372802_telegram-logo-png-transparent-telegram-logof-telegram-icon 1.png" alt="inst" class="contacts__telegram contacts__contact">
+        </div>
+        <div class="footer__general-info">
+            <div class="footer__web-sait web-sait">
+                <div class="web-sait__title">сайт:</div>
+                <div class="web-sait__components">
+                    <div class="web-sait__idea idea web-sait__component">
+                        <div class="idea__title web-sait-title">ідея:</div>
+                        <ul class="idea__peoples web-sait-peoples">
+                            <li class="idea__people web-sait-people">Вадим Костюченко</li>
+                        </ul>
+                    </div>
+                    <div class="web-sait__desing desing web-sait__component">
+                        <div class="desing__title web-sait-title">дизайнери:</div>
+                        <ul class="desing__peoples web-sait-peoples">
+                            <li class="desing__people web-sait-people">Ковальов Єгор</li>
+                            <li class="desing__people web-sait-people">Ковальов Єгор</li>
+                            <li class="desing__people web-sait-people">Ковальов Єгор</li>
+                        </ul>
+                    </div>
+                    <div class="web-sait__layout layout web-sait__component">
+                        <div class="layout__title web-sait-title">верстальщики:</div>
+                        <ul class="layout__peoples web-sait-peoples">
+                            <li class="layout__people web-sait-people">Ковальов Єгор</li>
+                            <li class="layout__people web-sait-people">Ковальов Єгор</li>
+                            <li class="layout__people web-sait-people">Ковальов Єгор</li>
+                        </ul>
+                    </div>
+                    <div class="web-sait__programmer programmer web-sait__component">
+                        <div class="programmer__title web-sait-title">програмісти:</div>
+                        <ul class="programmer__peoples web-sait-peoples">
+                            <li class="programmer__people web-sait-people">Ковальов Єгор</li>
+                            <li class="programmer__people web-sait-people">Ковальов Єгор</li>
+                            <li class="programmer__people web-sait-people">Ковальов Єгор</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__company-sait web-sait">
+                <div class="web-sait__title">компанія:</div>
+                <div class="web-sait__components">
+                    <div class="web-sait__idea idea web-sait__component">
+                        <div class="idea__title web-sait-title">засновники:</div>
+                        <ul class="idea__peoples web-sait-peoples">
+                            <li class="programmer__people web-sait-people">Ковальов Єгор</li>
+                            <li class="idea__people web-sait-people">Вадим Костюченко</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__nav">
+            <ul class="footer__navigation navigation-ft">
+                <li class="navigation-ft__link"><a href="./index.html">головна</a></li>
+                <li class="navigation-ft__link"><a href="./katalog.html">каталог</a></li>
+                <li class="navigation-ft__link"><a href="./blog.html">блог</a></li>
+            </ul>
+            <div class="footer__location location">
+                <div class="location__name">головний офіс:</div>
+                <div class="location__path">Укр. Харківська обл. Красноградський р. Зачепилівка с. Соборна вул. 184д.</div>
+            </div>
+        </div> 
+    </div>
+</footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220725104921"></script>
+    <script src="js/app.min.js?_v=20220725104921"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js?_v=20220725104921" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</body>
+</html>

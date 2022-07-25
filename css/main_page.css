@@ -1,0 +1,376 @@
+.main__first {
+  margin-top: 62px;
+  position: relative;
+}
+
+.first__header {
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 117px;
+  color: #DCFFD7;
+  position: absolute;
+  top: 387px;
+  left: 55px;
+  display: inline-block;
+}
+
+.first__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-height: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.big {
+  margin-top: 272px;
+}
+
+.main-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+
+.big__image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  width: 577px;
+  height: 631px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.big__button {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.assortment__title {
+  margin-bottom: 108px;
+}
+
+.assortment {
+  margin-top: 181px;
+}
+
+.assortment__button {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper {
+  max-width: 992px;
+  margin: 0 auto;
+  min-height: 511px;
+  max-height: 511px;
+}
+
+.swiper-slide {
+  width: 282px;
+  height: 511px;
+}
+
+.swiper-button-prev {
+  transform: rotate(180deg);
+}
+
+.assortment__container {
+  position: relative;
+}
+
+.assortment__button {
+  margin-top: 79px;
+}
+
+.main__weblog {
+  margin-top: 226px;
+}
+
+.weblog__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 91px;
+}
+
+.weblog__text {
+  max-width: 508px;
+  margin-left: 46px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 132.4%;
+  letter-spacing: 0.5%;
+  color: #3A5A37;
+}
+
+.weblog__blogs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  max-width: 480px;
+  max-height: 487px;
+}
+
+.weblog__blog {
+  padding: 0 15px;
+}
+
+.w-blog {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.w-blog__image {
+  width: 100%;
+  height: 127px;
+  border-radius: 7px 7px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.w-blog__content {
+  width: 210px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 7px;
+  flex: 1 1 auto;
+}
+
+.w-blog__title {
+  font-size: 24px;
+  line-height: 132.4%;
+  letter-spacing: 0.005em;
+  color: #3A5A37;
+  padding: 0 8px;
+}
+
+.w-log__description {
+  font-size: 15px;
+  line-height: 132.4%;
+  letter-spacing: 0.005em;
+  color: #19390E;
+  padding: 0 8px;
+}
+
+.weblog__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+.main__all-ukraine {
+  margin-top: 146px;
+}
+
+.all-ukraine__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-ukraine__image {
+  margin-top: 37px;
+  max-width: 800px;
+  max-height: 553px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.all-ukraine__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 57px;
+  margin-bottom: 139px;
+}
+
+@media (min-width: 1600px) {
+  .first__header {
+    left: 400px;
+  }
+}
+
+@media (min-width: 2120px) {
+  .first__header {
+    left: 600px;
+    top: 500px;
+    font-size: 150px;
+    line-height: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .first__header {
+    font-size: calc(32px + 60 * (100vw - 320px) / 880);
+    top: calc(77px + 310 * (100vw - 320px) / 880);
+    line-height: calc(39px + 78 * (100vw - 320px) / 880);
+  }
+
+  .first__image {
+    height: calc(278px + 630 * (100vw - 320px) / 880);
+  }
+}
+
+@media (max-width: 1090px) {
+  .swiper {
+    width: 606px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .weblog__row {
+    flex-direction: column-reverse;
+  }
+
+  .weblog__text {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 63px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .weblog__button {
+    margin-top: 82px;
+  }
+
+  .weblog__blogs {
+    margin: 0 auto;
+    position: relative;
+    left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 40px;
+  }
+
+  .big__image {
+    width: 425px;
+    height: 465px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .big {
+    margin-top: 126px;
+  }
+
+  .assortment__title {
+    margin-bottom: 82px;
+  }
+
+  .main__weblog {
+    margin-top: 131px;
+  }
+
+  .weblog__row {
+    margin-top: 68px;
+  }
+
+  .main__all-ukraine {
+    margin-top: 127px;
+  }
+
+  .all-ukraine__image {
+    max-width: 643.93px;
+    max-height: 413px;
+  }
+
+  .all-ukraine__button {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 700px) {
+  .swiper {
+    width: 234px;
+  }
+
+  .swiper-slide {
+    width: 234px;
+    height: 502px;
+  }
+}
+
+@media (max-width: 682px) {
+  .big {
+    margin-top: 76px;
+  }
+}
+
+@media (max-width: 600px) {
+  .first__header {
+    left: 20px;
+  }
+
+  .main__all-ukraine {
+    margin-top: 93px;
+  }
+
+  .all-ukraine__image {
+    margin-top: 23px;
+    max-width: 290px;
+    max-height: 186px;
+  }
+
+  .all-ukraine__button {
+    margin-top: 34px;
+  }
+}
+
+@media (max-width: 550px) {
+  .big {
+    margin-top: 47px;
+  }
+
+  .assortment__title {
+    margin-bottom: 34px;
+  }
+
+  .big__image {
+    width: 220px;
+    height: 241px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .main-title {
+    font-size: 20px;
+    line-height: 24.38px;
+  }
+
+  .main__weblog {
+    margin-top: 104px;
+  }
+
+  .weblog__row {
+    margin-top: 31px;
+  }
+
+  .weblog__text {
+    margin-top: 29px;
+  }
+
+  .w-blog:not(:first-child) {
+    display: none;
+  }
+
+  .weblog__blogs {
+    left: 0px;
+  }
+
+  .weblog__button {
+    margin-top: 34px;
+  }
+}

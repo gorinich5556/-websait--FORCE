@@ -1,0 +1,39 @@
+.main__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 41px;
+  margin-bottom: 33px;
+  font-family: mont;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 132.4%;
+  letter-spacing: 0.005em;
+  color: #3C5C2F;
+}
+
+.blogs__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -21px;
+  justify-content: center;
+}
+
+.blogs__blog {
+  padding: 0px 21px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .main__title {
+    margin-top: 17px;
+    margin-bottom: 37px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main__title {
+    margin: 10px 0;
+    font-size: 32px;
+  }
+}
